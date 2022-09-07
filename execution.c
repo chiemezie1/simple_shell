@@ -1,10 +1,10 @@
 #include "shell.h"
 
 /**
- * execution - executes commands entered by users
+ * execution - executes commands from user
  *@cp: command
- *@cmd:vector array of pointers to commands
- * Return: 0
+ *@cmd:vector of pointers to commands
+ * Return: 0.
  */
 void execution(char *cp, char **cmd)
 {

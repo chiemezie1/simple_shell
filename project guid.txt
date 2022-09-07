@@ -1,0 +1,6 @@
+Everything you need to know to start coding your own shell
+PID & PPID
+click => https://alx-intranet.hbtn.io/concepts/64
+		 https://alx-intranet.hbtn.io/rltoken/f0YU9TAhniMXWlSXtb64Yw
+		 https://alx-intranet.hbtn.io/rltoken/7LJOp2qP7qHUcsOK2-F3qA
+		 https://alx-intranet.hbtn.io/rltoken/wTSu31ZP1f7fFTJFgRQC7w
