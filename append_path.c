@@ -2,10 +2,8 @@
 
 /**
  * append_path - adds path to command
- *
- * @path: command path
- *
- * @command: user entries
+ * @path: path of command
+ * @command: user entered command
  *
  * Return: buffer containing command with path on success AND NULL on failure
  */

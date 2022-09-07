@@ -6,16 +6,16 @@
  *
  * Return: no return
  */
-void free_buffers(char **buffer)
+void free_buffers(char **buf)
 {
 	int i = 0;
 
-	if (buffer == NULL || !buffer)
+	if (!buf || buf == NULL)
 		return;
-	while (buffer[i])
+	while (buf[i])
 	{
-		free(buffer[i]);
+		free(buf[i]);
 		i++;
 	}
-	free(buffer);
+	free(buf);
 }

@@ -2,9 +2,8 @@
 
 /**
  * handle_builtin - handles execution of builtin functions
- *
  * @command: tokenized commands
- * @line: input from stdin
+ * @line: input read from stdin
  *
  * Return: 1 if executed, 0 if not
  */
