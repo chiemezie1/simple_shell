@@ -3,13 +3,14 @@
 
 The Thompson shell was the first Unix shell, introduced in the first version of Unix in 1971, and was written by Ken Thompson.It was a simple command interpreter, not designed for scripting, but nonetheless introduced several innovative features to the command-line interface and led to the development of the later Unix shells.
 
-										*Unix shell*
+							*Unix shell*
 
 A Unix shell is a command-line interpreter or shell that provides a command line user interface for Unix-like operating systems. The shell is both an interactive command language and a scripting language, and is used by the operating system to control the execution of the system using shell scripts.
 
 Users typically interact with a Unix shell using a terminal emulator; however, direct operation via serial hardware connections or Secure Shell are common for server systems. All Unix shells provide filename wildcarding, piping, here documents, command substitution, variables and control structures for condition-testing and iteration.
 
 *Early shells*
+
 	Thompson shell
 		The first Unix shell was the Thompson shell, sh, written by Ken Thompson at Bell Labs and distributed with Versions 1 through 6 of Unix, from 1971 to 1975. Though rudimentary by modern standards, it introduced many of the basic features common to all later Unix shells, including piping, simple control structures using if and goto, and filename wildcarding. Though not in current use, it is still available as part of some Ancient UNIX systems.
 
@@ -36,7 +37,6 @@ Users typically interact with a Unix shell using a terminal emulator; however, d
 
 *Executing a program*
 	The system call execve allows a process to execute another program (man 2 execve). Note that this system call does load the new program into the current process’ memory in place of the “previous” program: on success execve does not return to continue the rest of the “previous” program.
-
 	Warning: in this example, execve is used without the current environment (last argument), don’t forget to add it in your Shell!
 
 *Creating processes*
